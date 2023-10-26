@@ -1,0 +1,147 @@
+.pname {
+    color: #334155;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.tables-header {
+
+  display: flex;
+  background-color: transparent;
+  list-style-type: none;
+  border: 1px solid #334155;
+}
+
+.brands {
+    color: #334155;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 160px;
+    text-align: center;
+}
+
+.prices {
+    color: #334155;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 140px;
+    text-align: center;
+}
+
+.quantities {
+    color: #334155;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.totals {
+    color: #334155;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 240px;
+    text-align: center;
+}
+
+.image {
+    height: 100px;
+}
+
+.status-con {
+   margin-left: 140px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+}
+
+
+.x-icon {
+    font-size: 28px;
+    
+}
+
+.w-icon {
+    font-size: 28px;
+    
+    
+   
+}
+
+
+.text-green {
+    margin: 40px;
+    width: 100px;
+    border-color: transparent;
+    background-color: green;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.text-red {
+    margin: 40px;
+    width: 100px;
+    border-color: transparent;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.text-orange {
+    margin: 40px;
+    width: 100px;
+    border-color: transparent;
+    background-color: orange;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+
+.text {
+    margin: 40px;
+    width: 100px;
+    border-color: transparent;
+    background-color: transparent;
+    color: transparent;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.x-icon-con {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+   
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.w-icon-con {
+   background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}

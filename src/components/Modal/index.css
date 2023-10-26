@@ -1,0 +1,86 @@
+/* .modal-con{
+    position: fixed;
+
+    left: 25%;
+    top: 30%;
+
+    width: 50%;
+
+    border: 1px solid #011627;
+    border-radius: 1em;
+    box-shadow: -2px 5px 5px #E71D36;
+
+    background-color: #FDFFFC;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #011627;
+} */
+
+
+.modal-con {
+    position: fixed;
+    top: 50%;
+  height: 20%;
+  border-radius: 12px;
+  width: 20%;
+  padding: 30px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+
+.modal-wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(189,189,189,0.9);
+}
+
+.first-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exit-btn {
+    margin-top: 14px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.btn-con {
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    padding: 12px;
+    cursor: pointer;
+    margin: 12px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content {
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.missing-p-head {
+    font-family: "Roboto";
+  
+    
+}
+
+
+.exit-exit {
+font-size: 20px;
+}

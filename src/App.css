@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.searchs {
+  padding: 12px;
+  border-right: none;
+  border-right-color: transparent;
+  width: 300px;
+  border-top-left-radius: 12px;
+  font-weight: bold;
+
+  outline: none;
+  border-bottom-left-radius: 12px;
+}
+
+.add-button {
+  color: green;
+  font-weight: bold;
+  background-color: transparent;
+  border-color: green;
+  margin-right: 30px;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.home-container {
+  margin-top: 20px;
+}
+
+.input-container {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search-icon {
+  font-size: 30px;
+  margin: auto;
+  padding-top: 6px;
+}
+
+.search-button {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-left: none;
+
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.printer-icon {
+  font-size: 30px;
+  padding-top: 12px;
+  color: green;
+}
+
+.right-con {
+  display: flex;
+  margin-right: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-con {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-container {
+  max-height: 100vh;
+}
+
+.items-table {
+  list-style-type: none;
+  margin-top: 50px;
+  
+}
+
+.table-header {
+  
+  display: flex;
+  background-color: #f1f5f9;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+}
+
+.item-table-container {
+ overflow: scroll;
+ max-height: 75vh;
+ margin-top: 20px;
+}
+
+.p-name {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  width: 300px;
+  text-align: center;
+}
+
+
+.status {
+  padding-right: 42px;
+  width: 300px;
+}
+
+
+hr {
+  
+  border: 1px solid #cbd5e1;
+}
